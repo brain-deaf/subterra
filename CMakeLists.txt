@@ -10,7 +10,7 @@ find_package(bgfx CONFIG REQUIRED)
 
 # Our executable
 add_executable(psx_hello_world
-  Subterra.cpp
+  src/Subterra.cpp
 )
 
 # Link exactly the imported targets

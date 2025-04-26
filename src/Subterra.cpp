@@ -1,5 +1,6 @@
-﻿// Subterra.cpp — minimal SDL3 + bgfx “hello world” (PS1-purple clear)
+// Subterra.cpp — minimal SDL3 + bgfx "hello world" (PS1-purple clear)
 
+#include "Subterra.h" // Include the moved header
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_video.h>        // SDL_GetWindowProperties
 #include <SDL3/SDL_properties.h>   // SDL_GetPointerProperty
@@ -128,4 +129,4 @@ int main(int /*argc*/, char** /*argv*/)
     SDL_DestroyWindow(window);
     SDL_Quit();
     return 0;
-}
+} 
