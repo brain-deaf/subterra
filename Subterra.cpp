@@ -67,8 +67,8 @@ int main(int /*argc*/, char** /*argv*/)
     //--------------------------------------------------------------------
     bgfx::Init init{};
     init.type = bgfx::RendererType::Count; // auto-detect
-    init.resolution.width = 1280;
-    init.resolution.height = 720;
+    init.resolution.width = 1920;
+    init.resolution.height = 1080;
     init.resolution.reset = BGFX_RESET_VSYNC;
     init.platformData = pd;
 
@@ -86,7 +86,7 @@ int main(int /*argc*/, char** /*argv*/)
         0x553388FF,   // ABGR
         1.0f,
         0);
-    bgfx::setViewRect(0, 0, 0, 1280, 720);
+    bgfx::setViewRect(0, 0, 0, 1920, 1080);
 
     //--------------------------------------------------------------------
     // 5) Main loop
